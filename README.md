@@ -4,7 +4,7 @@ A web-based 2-player Pong game built as part of the CPDF (Cannasol Project Devel
 
 ## Play the Game
 
-🎮 **Live Demo:** [Coming soon - Firebase Hosting]
+🎮 **Live Demo:** [https://cannaclaw.github.io/pong-game/](https://cannaclaw.github.io/pong-game/)
 
 ## Features
 
@@ -72,9 +72,14 @@ npx http-server
 
 ## Deployment
 
-Deploy to Firebase Hosting:
+The game is deployed to GitHub Pages automatically when pushing to the `main` branch.
+
+**Live URL:** https://cannaclaw.github.io/pong-game/
+
+Alternative: Deploy to Firebase Hosting:
 
 ```bash
+firebase login
 firebase deploy
 ```
 
